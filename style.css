@@ -5,6 +5,33 @@ body {
 
 }
 
+html, body{
+    height: 100%;
+}
+
+.light {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark{
+    background-color: rgb(2, 2, 45);
+    color: white;
+}
+
+.light .main {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark #darkBtn{
+    display: none;
+}
+
+.light #lightBtn{
+    display: none;
+}
+
 .main{
     border: 1px solid;
     padding: 20px;
